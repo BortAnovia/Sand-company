@@ -1,0 +1,202 @@
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<!--------------------------------------------------------------------------------------------------->
+        <style type="text/css">
+            html{
+                scroll-behavior: smooth;
+                -webkit-overflow-scrolling: touch;
+            }
+            #head img{
+                width: 200px;
+            }
+            #head{
+                margin: 0; 
+                padding: 0;
+                background-color: silver;
+            }
+            #head button{
+                margin-top: 70px;
+                font-size: 30px;
+                margin-right: 50px;
+            }
+            
+            #contact{
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: auto;
+                /*background-image: url("Sandco_logo.png");*/
+                background-position: center;
+                background-color: silver;
+                padding-top: 100px;
+                padding-bottom: 200px;
+            }
+            #footer h5{
+                font-size: 20px;
+            }
+            #navigationBar{
+                font-size: 30px;
+            }
+            #navigation a{
+                color: white;
+            }
+            #mobileNavbar img{
+                height: 100px;
+            }
+            #mobileNavbar a{
+                font-size: 30px;
+            }
+            .carousel {
+                width:70% !important;
+                overflow:hidden !important;
+            }
+        </style>
+<!---------------------------Meta--------------------------------------->
+        <meta property="og:image" content="Sandco_logo.png">
+        <title>SandCo Sand Company</title>
+        <link rel="icon" href="Sandco_logo.png">
+        <meta charset="utf-8">
+    </head>
+    <body>
+<!----------------------------------MOBILE NAVBAR------------------------------------->
+        <nav id="mobileNavbar" class="navbar navbar-expand-sm navbar-light bg-light navbar fixed-bottom d-lg-none container-fluid justify-content-center">
+            <ul class="navbar-nav col-md-4 justify-content-center">
+                        <li class="nav-item text-center">
+                            <a href="tel: +85516977796" class="nav-link" style="color: black;">
+                                <img src="unnamed.png" class="img-responsive">
+                                <h2>Phone</h2>
+                            </a>
+                        </li>
+            </ul>
+            <ul class="navbar-nav col-md-4 justify-content-center">
+                        <li class="nav-item active text-center">
+                            <a href = "mailto: sandcosand18@gmail.com" class="nav-link" style="color: black;">
+                                <img src="email-5-xxl.png" alt="">
+                                <h2>Email</h2>
+                            </a>
+                        </li>
+            </ul>
+            <ul class="navbar-nav col-md-4 justify-content-center">
+                    <li class="nav-item active text-center">
+                    <a href="https://www.facebook.com/sandcosand" class="nav-link" style="color: black;">
+                        <img src="facebook-icon-ico-23 (1).png" class="img-responsive">
+                        <h2>Facebook</h2>
+                    </a>
+                    </li>
+            </ul>
+        </nav>
+<!----------------------------------HEADER---------------------------------------------->
+        <div id="head" class="container-fluid">
+            <img src="Sandco_logo.png" style="margin: 25px;">
+            <div style="display: inline-block; height: 150px;">
+                <div class="align-middle" style="display: inline-block;">
+                    <h2 class="font-wight-normal">
+                        SandCo Sand Company
+                    </h2>
+                    <h5>
+                        Your Trusted Sand Supplier in Cambodia
+                    </h5>
+                </div>
+            </div>
+            <button onclick="location.href='#contact'" class="btn btn-dark float-right" type="button">Contact us</button>
+        </div>
+<!------------------------------------NAV BAR--------------------------------------------->
+        <nav class="navbar navbar-expand-lg" style="font-size: 25px; background-color: #FDB515">
+            <li class="navbar-nav mr-5 ml-4">
+                <a class="navbar-link" href="http://sandcosand.com/" style="color: white; text-decoration: none;">Home </a>
+            </li>
+                    <li class="navbar-nav active mr-5">
+                        <a class="nav-link" href="#about" style="color:white;">About Us</a>
+                    </li>
+                    <li class="navbar-nav active mr-5">
+                        <a class="nav-link" href="#products" style="color:white;">Our Sand</a>
+                    </li>
+                    <li class="navbar-nav active">
+                        <a class="nav-link" href="#contact" style="color:white;">Contact</a>
+                    </li>
+            <div id="languageBtn" class="nav navbar-nav-expand-sm ml-auto justify-content-end">
+                <li>
+                    <a href="#" style="text-decoration: none; color: white;" class="pr-4">English</a>
+                    <a href="lang-kh.html" style="text-decoration: none; color: white;" class="pr-4">ខ្មែរ</a>
+                    <a href="lang-cn.html" style="text-decoration: none; color: white;" class="pr-2">你好</a>
+                </li>
+            </div>
+        </nav>
+<!--------------------------------------BODY------------------------------------------------>
+        <div class="container-fluid">
+            <div class="jumbotron text-center">
+                <img src="img-1.jpg" class="w-75">
+                <h3 style="width: 800px;" class="mx-auto pt-5">
+                    Welcome to SandCo Sand Company, your one-stop-shop sand for all your development projects.
+                    SandCo has a big dream to contribute to building a beautiful and modern city in Cambodia.
+                </h3>
+            </div>
+<!-------------------------------------BODY>CAROUSEL----------------------------------------------->
+            <div id="products" class="container-fluid justify-content-center text-center" style="background-color: #e9ecef;">
+                <h2 class="p-3">Our Sand</h2>
+                <div class="container-fluid d-flex justify-content-center pb-4" id="products">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" st>
+                        <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active text-center">
+                                <img class="w-100 img-fluid " src="img-2.jpg" alt="First slide">
+                                <div class="carousel-caption d-none d-md-block" style="backdrop-filter: blur(30px);">
+                                    <h2>Sand for Filling-up </h2>
+                                    <p>Do you need to fill up your land for development? At SANDCO Sand Company, we supply sand for filling up for any land projects around Phnom Penh and some certain areas in Cambodia with unbeatable prices as well! We make your land value higher and save cost.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item text-center">
+                                <img class="w-100 img-fluid" src="img-3.jpg" alt="Second slide">
+                                <div class="carousel-caption d-none d-md-block" style="backdrop-filter: blur(30px);">
+                                    <h2>Sand for Construction</h2>
+                                    <p>Our sand is our number best selling item! Our customer really appreciate that our sand is natural, salt-free and top-notch quality. The sand is carefully chosen by our team.</p>
+                            
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+                <div id="about" class="text-center pr-5 pl-5" style="background-color: #e9ecef;">
+                    <p style="font-size: 30px; padding-top: 100px; padding-bottom: 100px">SANDCO Sand Company was founded in 2020 and is the trusted sand supplier and distribution in Cambodia. We are committed to the highest level of production and distribution, quality customer service & safety standards for you and your business. Not only are we well-known for our top quality products, 
+                        but our unbeatable prices as well!
+                        
+                        If you would like to find out more about how SANDCO Sand Company can serve your construction and industrial projects, feel free to contact us today.
+                    </p>
+                </div>
+            </div>
+<!---------------------------------------CLOSING BODY-------------------------------------------->
+        </div>
+<!----------------------------------------FOOTER------------------------------------------------->
+        <div id="contact" class="container-fluid">
+            <div class="text-center" style="color:white; backdrop-filter: blur(30px);">
+                <h2 class="pb-5">Contact Us</h2>
+                <h3>Contact us with any question/ feedback you may have about our products. </h3>
+                <h3>Our operational hours are as followed:</h3>
+                <h3>Monday - Saturday: 8:00 am - 5.00 pm</h3>
+                <h3 style="margin-bottom: 50px; color: red;">Sunday: Closed</h3>
+                <h3><strong style="color: red;">Address:</strong> 38G, Goody (St.), Borey Plaza Teuk Thla, Sen Sok, Phnom Penh, Cambodia</h3>
+                <h3><strong style="color: red;">Telephone:</strong><a href="tel: +85516977796"> +85516977796</a> & Available on Wechat, Whatsapp, Telegram, Line, Viber</h3>
+                <h3><strong style="color: red;">Email:</strong><a href="mailto: sandcosand18@gmail.com"> sandcosand18@gmail.com</a></h3>
+                <h3><strong style="color: red;">Facebook:</strong><a href="https://www.facebook.com/sandcosand"> https://www.facebook.com/sandcosand</a></h3>
+            </div>
+        </div>
+        <div id="footer" class="text-center" style="padding-bottom: 200px;">
+            <h5>&#169;2020 by SandCo Sand Company.</h5>
+        </div>
+<!--------------------------JQUERY AND BOOTSTRAP 4 JAVASCRIPT----------------------------------------------------------->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
